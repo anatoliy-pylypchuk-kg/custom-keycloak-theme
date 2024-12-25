@@ -7,7 +7,10 @@ export default defineConfig({
   plugins: [
     react(),
     keycloakify({
-      accountThemeImplementation: "none"
-    })
-  ]
+      themeName: "custom-keycloak-theme",
+      groupId: "com.kindgeek",
+      artifactId: "custom-keycloak-theme",
+      accountThemeImplementation: "none",
+    }),
+  ],
 });

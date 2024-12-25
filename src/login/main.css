@@ -1,0 +1,92 @@
+.kcBodyClass {
+  background-image: url("/img/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: "Raleway", sans-serif;
+}
+
+.kcHeaderClass {
+  color: black !important;
+}
+
+.kcFormCardClass {
+  margin-inline: auto;
+  margin-block-end: 72px;
+  padding-block: 24px;
+  padding-inline: 36px;
+  max-width: 500px;
+  border-radius: 16px;
+  backdrop-filter: blur(16px);
+}
+
+.kcFormGroupClass {
+  display: flex;
+  flex-direction: column;
+}
+
+.kcInputWrapperClass {
+  display: flex;
+  flex-direction: column;
+}
+
+.kcInputClass {
+  font-size: 1rem;
+  border: #f0f0f0 solid 1px;
+  border-block-end: lightgray solid 1px;
+  padding-inline: 8px;
+  padding-block: 4px;
+}
+
+.kcFormPasswordVisibilityButtonClass {
+  border: #f0f0f0 solid 1px;
+  border-block-end: lightgray solid 1px;
+  background-color: white;
+  padding-inline: 12px;
+  font-size: 1rem;
+}
+
+.kcInfoAreaWrapperClass {
+  background-color: initial !important;
+  font-size: initial !important;
+}
+
+.kcButtonClass {
+  padding-block: 4px;
+  padding-inline: 8px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.kcButtonPrimaryClass {
+  background-color: hsl(270deg 73% 53%);
+  color: white;
+}
+
+.kcButtonBlockClass {
+  width: 100%;
+}
+
+#kc-registration {
+  text-align: center;
+}
+
+.kcLocaleMainClass {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.kcLocaleWrapperClass {
+  border: #f0f0f0 solid 1px;
+  border-block-end: lightgray solid 1px;
+  font-size: 1rem;
+  padding-block: 4px;
+  padding-inline: 8px;
+}
+
+#kc-current-locale-link::after {
+  content: unset !important;
+}

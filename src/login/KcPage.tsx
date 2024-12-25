@@ -7,6 +7,8 @@ import Template from "keycloakify/login/Template";
 import type { KcContext } from "./KcContext";
 import { useI18n } from "./i18n";
 
+import "./main.css";
+
 const UserProfileFormFields = lazy(
   () => import("keycloakify/login/UserProfileFormFields"),
 );
@@ -40,4 +42,14 @@ export default function KcPage(props: Readonly<{ kcContext: KcContext }>) {
   );
 }
 
-const classes = {} satisfies { [key in ClassKey]?: string };
+const classes = {
+  kcButtonClass: "",
+  kcButtonDefaultClass: "",
+  kcButtonLargeClass: "",
+  kcButtonPrimaryClass: "",
+  kcFormCardClass: "",
+  kcFormPasswordVisibilityButtonClass: "",
+  kcHtmlClass: "",
+  kcInputClass: "",
+  kcSignUpClass: "",
+} satisfies { [key in ClassKey]?: string };
